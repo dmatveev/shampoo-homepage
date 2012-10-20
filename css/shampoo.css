@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    font-family: Helvetica, Arial, Sans;
+}
+
+#headnote {
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 0.7em;
+}
+
+.wrapper {
+    /* required to push footer into the top */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+
+    /* centering content on the screen horizontally */
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer, .push {
+    height: 4em;
+}
+
+.footer {
+    text-align: center;
+    font-size: 85%;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navlink {
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+.navlink, .navlink:visited {
+    color: black;
+}
+
+.navlink:hover {
+    background-color: #ffa07a;
+}
+
+table.downloads {
+    width: 100%;
+    height: 100%;
+    border-spacing: 5px 0px;
+}
+
+.downloads td, .downloads th {
+    background-color: whitesmoke;
+    padding: 0.25em;
+    text-align: center;
+}
+
+code {
+    font-size: 14px;
+    padding: 0.25em;
+    background-color: whitesmoke;
+    border-bottom: 1px solid lightgray;
+}
+
+pre code, code.url {
+    /* reset some settings from code {...} */
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+pre {
+    background-color: whitesmoke;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid lightgray;
+}

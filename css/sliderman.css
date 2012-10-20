@@ -1,0 +1,23 @@
+#splash_container {
+    margin: 0 0 0 0px;
+    padding: 0px;
+    width: 700px;
+    border: 2px solid lightgray;
+}
+
+.splash {
+	width: 700px;
+	height: 550px;
+	overflow: hidden;
+}
+
+.splashDescription {
+	padding: 10px;
+	font-family: Helvetica, Arial, Sans;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0 1px 3px #000000;
+}
