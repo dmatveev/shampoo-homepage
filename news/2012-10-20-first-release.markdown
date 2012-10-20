@@ -36,4 +36,4 @@ Thanks.
 [install]:          installation.html
 [try]:              usage.html
 [send me]:          contribution.html
-[opening my eyes]:  http://www.twitter.com/KentBeck
+[opening my eyes]:  http://twitter.com/KentBeck/status/257871484880572416
