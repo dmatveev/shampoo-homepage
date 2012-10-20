@@ -35,6 +35,10 @@ instead.
 
 If the Shampoo client will connect successfully, you will be asked for a password. Type the one you've specified as `pass:` earlier and press `Enter`. After a successfull authentification the Class Browser will appear on the screen and the image's classes will be loaded into it.
 
+To disconnect from a Shampoo image, invoke
+
+        M-x shampoo-disconnect
+
 Shampoo aims to provide the behavior similar to the popular Smalltalk environments, like Squeak. If you are familiar with any of the existing Smalltalk implementations, you will get into Shampoo quickly.
 
 Shampoo implements the commonly used Smalltalk development environment tools -- the Class Browser, Workspaces and Transcript. 
@@ -71,6 +75,10 @@ To change a method in the class:
 4. Change the method's code in the source code window and press `C-c C-c`.
 
 In any case, after pressing `C-c C-c` you will receive an informational message about the status of your operation. The message will appear in the Emacs's minibuffer.
+
+If you've closed any Class Browser's window, you always can restore the Class Browser window layout with command
+
+        M-x shampoo-restore-layout
 
 Workspaces
 ----------
