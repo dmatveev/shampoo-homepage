@@ -8,8 +8,8 @@ Shampoo was tested with Emacs 24.1 on Windows and with Emacs 23.3.1
 on GNU/Linux. Download the [latest release][1] and extract the Emacs
 mode into a suitable location (`~/.emacs.d` is a good one):
 
-        $ wget -c http://dmitrymatveev.co.uk/shampoo/files/shampoo-emacs-0.0.1.tar.gz
-        $ tar -xzvf shampoo-emacs-0.0.1.tar.gz
+        $ wget -c http://dmitrymatveev.co.uk/shampoo/files/shampoo-emacs-0.0.1.tgz
+        $ tar -xzvf shampoo-emacs-0.0.1.tgz
 
 Then add the following lines to your `~/.emacs` file:
 
@@ -32,8 +32,8 @@ GNU Smalltalk version uses the standard packages and has no additional
 dependencies. [Download][1] and extract the latest release into 
 a suitable location:
 
-        $ wget -c http://dmitrymatveev.co.uk/shampoo/files/shampoo-gst-0.0.1.tar.gz
-        $ tar -xzvf shampoo-gst-0.0.1.tar.gz
+        $ wget -c http://dmitrymatveev.co.uk/shampoo/files/shampoo-gst-0.0.1.tgz
+        $ tar -xzvf shampoo-gst-0.0.1.tgz
 
 and then create and install the GNU Smalltalk package:
 

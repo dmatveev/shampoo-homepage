@@ -16,6 +16,8 @@ In Pharo, you can start Shampoo directly from a Workspace by evaulating this cod
 
         ShampooServer startOn: 9090 login: 'login' pass: '1234'
 
+*There is a bug with Transcript in version 0.0.1 for Pharo*. You need to evaluate `ShampooTranscript install` after loading the package to make Transcript work with Shampoo. It will be fixed in version 0.0.2.
+
 Connecting with Emacs client
 ----------------------------
 
@@ -58,7 +60,7 @@ Pressing `Enter` in any list window opens the appropriate item. Press `Enter` on
 
 Note for Pharo users: since there is no namespaces in Pharo, the Namespaces list displays class categories (i.e. to behave exactly as the System Browser in Pharo).
 
-By default, Shampoo displays the instance side of the classes. Pressing `C-c t` switches side from "instance" to "class" and back. Current side is displayed in the header line of the Categories list.
+By default, Shampoo displays the instance side of the classes. Pressing `C-c C-t` switches side from "instance" to "class" and back. Current side is displayed in the header line of the Categories list.
 
 Pressing `C-c C-c` submits the code from the source code window. Depending on what you've opened before from a lists, you can introduce a new class or a method or modify the existing one.
 
